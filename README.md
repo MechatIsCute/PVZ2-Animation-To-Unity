@@ -1,6 +1,6 @@
 # PVZ2-Animation-To-Unity
-将PVZ2的动画资源导入Unity (Import PVZ2 Animation Resource Into Unity)
-把 **Plants vs. Zombies 2** 的 XFL 动画源文件夹（素吧官网可以找到）转换为 **Unity Prefab + AnimationClip** 的编辑器插件。
+- 将PVZ2的动画资源导入Unity (Import PVZ2 Animation Resource Into Unity)
+- 把 **Plants vs. Zombies 2** 的 XFL 动画源文件夹（素吧官网可以找到）转换为 **Unity Prefab + AnimationClip** 的编辑器插件。
 ## 特性
 
 由于素吧的动画文件属于解包后的素材，丢失了很多命名信息，这个插件也只是通过这些解包的文件尽可能推测原有结构。如果按照源文件一比一写入，Zomboss的许多动画能产生上千上万的图层，所以插件对重复内容等尽可能地做了优化。
@@ -55,3 +55,9 @@ player.Stop();
 
 - 插件仅做格式转换，**不包含任何游戏素材**；PVZ 素材版权归原作者所有。
 - 使用时请标注插件作者信息（就当为pvz同人圈的一点贡献，当然本人是不在意的）
+
+## 关于AI在本项目中的使用
+- 在UI排版美化、UI信息说明上使用了AI辅助工具
+
+## 关于多语言
+- 本插件为个人制作，加之PVZ同人游戏以中文语言居多，因此只支持中文。(This project only supports Chinese)
